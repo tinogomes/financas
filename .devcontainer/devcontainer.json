@@ -16,7 +16,8 @@
 
   "containerEnv": {
     "KAMAL_REGISTRY_PASSWORD": "$KAMAL_REGISTRY_PASSWORD",
-    "DB_HOST": "postgres"
+    "DB_HOST": "postgres",
+    "RAILS_DEVELOPMENT_HOSTS": "api.local,api.localhost,app.localhost,app.local,web.local,www.local,www.localhost"
   },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
